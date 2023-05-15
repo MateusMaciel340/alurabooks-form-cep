@@ -77,4 +77,6 @@
     font-size: 12px;
     line-height: 18px;
     color: var(--vermelho);
+    font-weight: bold;
+    margin: 0.5rem 0;
 }

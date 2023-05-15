@@ -98,7 +98,8 @@
 
             <div class="formulario__campo">
                 <label class="campo__etiqueta" for="cep">CEP</label>
-                <input name="cep" id="cep" class="campo__escrita" placeholder="Digite seu CEP" required />
+                <input type="number" name="cep" id="cep" class="campo__escrita" placeholder="Digite seu CEP" required />
+                <div class="erro__texto"></div>
             </div>
 
             <div class="formulario__campo">
@@ -112,12 +113,12 @@
                 </div>
                 <div class="formulario__campo">
                     <label class="campo__etiqueta" for="complemento">Complemento</label>
-                    <input name="complemento" id="complemento" class="campo__escrita" placeholder="Endereço" />
+                    <input name="complemento" id="complemento" class="campo__escrita" placeholder="Endereço" required />
                 </div>
             </div>
             <div class="formulario__campo">
                 <label class="campo__etiqueta" for="bairro">Bairro</label>
-                <input name="bairro" id="bairro" class="campo__escrita" placeholder="Bairro" required />
+                <input name="bairro" id="bairro" class="campo__escrita" placeholder="Bairro" required/>
             </div>
             <div class="formulario__dupla">
                 <div class="formulario__campo">
